@@ -12,9 +12,9 @@ import sublime_plugin
 ## see https://github.com/wbond/package_control_channel/pull/4503
 
 try:
-    import LiveReload
-except ImportError:
     from LiveReload import LiveReload
+except ImportError:
+    import LiveReload
 
 class MakeThread(threading.Thread):
 
