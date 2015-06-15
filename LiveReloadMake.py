@@ -7,7 +7,14 @@ import subprocess
 import sys
 import sublime
 import sublime_plugin
-import LiveReload
+
+## import LiveReload
+## see https://github.com/wbond/package_control_channel/pull/4503
+
+try:
+    import LiveReload
+except ImportError:
+    from LiveReload import LiveReload
 
 class MakeThread(threading.Thread):
 
