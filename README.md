@@ -28,4 +28,4 @@ git clone https://github.com/alessandro-pezzato/LiveReloadMake-sublimetext3.git 
 
 Using Command Palette (Ctrl+Shift+P), search *"LivereLoad"*, then *"Enable - Make"*.
 
-**See [LiveReload](https://github.com/dz0ny/LiveReload-sublimetext2/tree/devel) for complete usage.**
+**See [LiveReload](https://github.com/grafikart/st3-livereload) for complete usage.**
